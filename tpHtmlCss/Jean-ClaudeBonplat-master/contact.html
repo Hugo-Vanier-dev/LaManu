@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head lang="fr" dir="ltr">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<title>Contacter le chef de cuisine</title>
+	</head>
+	<body>
+		<nav id="bandeau">
+			<div class="animBandeau"><h2><a href="presentation.html">Réalisation</a></h2></div>
+			<div class="animBandeau"><h2><a href="Accueil.html">Accueil</a></h2></div>
+			<div class="animBandeau"><h2 id="accueil"><a href="contact.html">Contact</a></h2></div>
+			<div class="le-chef"><img src="assets/img/logo-du-chef.png" width="60px" alt="logo du chef"></div>
+		</nav>
+      <div id="page">
+        <p class="accueil">Desirez vous être contacter? Veillez mettre vos infonformations:</p>
+      	<div class="formulaire">
+	        <form id="contact_form" action="#" method="POST">
+						<p>
+							<label for="name"> Votre nom:</label>
+							<input type="text" name="name" id="name" placeholder="lastname" autofocus required />
+						 </p>
+						<p>
+							<label for="firstname">Prénom:</label>
+							<input type="text" name="firstname" id="firstname" placeholder="firstname" size="20" required />
+						</p>
+						<p>
+	            <label for="numberPhone">Numéro de téléphone:</label>
+	      			<input type="text" name="numberPhone" id="numberPhone" placeholder="0628451275" />
+						</p>
+	      		<p>
+	      			<label for="email">Votre adresse e-mail:</label>
+	      			<input type="email" name="email" id="email" placeholder=" aaan@" />
+	          </p>
+	          <p>
+	            <label for="address">Votre adresse:</label>
+	            <input type="text" name="address" id="address" placeholder="4 rue Georges" />
+						</p>
+						<p>
+							<label for="postalCode">Code postal:</label>
+		      		<input type="text" name="postalCode" id="postalCode" placeholder="Code postal" />
+						</p>
+						<p>
+							<label for="city">Ville:</label>
+	      			<input type="text" name="city" id="city" placeholder="Ville"  />
+						</p>
+	          <p class="aligne">
+							<label class="required" for="message">Votre message: </label>
+	            <textarea class="text" id="message" class="input" name="message" rows="7" cols="130"></textarea>
+						</p>
+	          <input id="submit_button" type="submit" value="Envoie" />
+	        </form>
+      </div>
+    </div>
+		<footer>
+			<h2>Contact:</h2>
+			<div class="blockFooter1">
+				<div class="blockFooter3">
+					<p class="paragrapheFooter">email: <a href="mailto:Hummmmlescarottesfondantes@croquantes.com?subject=Réservez votre chef à domicile&body=Précisez la date, l'heure et le lieu" id="mail">Hummmmlescarottesfondantes@croquantes.com</a></p><p class="paragrapheFooter">tél port: 06 28 05 60 97</p><p class="paragrapheFooter">tél fixe: 06 34 54 01 12</p>
+				</div>
+				<div class="blockFooter2">
+					<div class="middle">
+						<a class="btn" href="https://fr-fr.facebook.com/pages/category/Book/Chef-de-cuisine-354286607982670/" target="blank">
+							<i class="fa fa-facebook-f"></i>
+						</a>
+						<a class="btn" href="https://twitter.com/ggomez_chef?lang=fr" target="blank">
+							<i class="fa fa-twitter"></i>
+						</a>
+						<a class="btn" href="https://www.linkedin.com/in/jean-charles-guichard-0a7426b7/?originalSubdomain=fr" target="blank">
+							<i class="fa fa-google"></i>
+						</a>
+						<a class="btn" href="https://www.instagram.com/guillaume_gomez_/?hl=fr" target="blank">
+							<i class="fa fa-instagram"></i>
+						</a>
+						<a class="btn" href="https://www.youtube.com/user/ChefMichelDumas" target="blank">
+							<i class="fa fa-youtube"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+  </body>
+</html>

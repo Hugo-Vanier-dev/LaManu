@@ -1,0 +1,15 @@
+.row div{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+.btn{
+  background-color: #00A2B7;
+  color: white;
+  text-align: center;
+  font-size:1em;
+  font-weight: bold;
+}
+.row2 div{
+  text-align: center;
+}

@@ -1,0 +1,168 @@
+body{
+  font-family: "Dancing Script", "sans serif";
+  margin: 0;
+}
+  #page
+  {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    font-size: 1.4em;
+    padding-top: 50px;
+    color: white;
+  }
+  #page ul
+  {
+    list-style: none;
+  }
+  .formulaire input
+  {
+    position: absolute;
+    left: 45%;
+    text-align: left;
+
+  }
+  #submit_button
+  {
+    position: absolute;
+    left: 48%;
+    bottom: 10%;
+    width: 8%;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: lightgrey;
+  }
+  .required
+  {
+    display: block;
+  }
+  .aligne
+  {
+    display: flex;
+  }
+
+  .formulaire
+  {
+  margin-left: 20%;
+  }
+    .accueil
+  {
+    font-size: 2em;
+    margin-left: 10px;
+  }
+#bandeau{
+    display:flex;
+    height: 130px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgrey;
+    font-family: "Dancing Script", "sans serif";
+    align-items: center;
+    text-shadow: 5px 5px 10px grey;
+}
+.le-chef{
+  position: absolute;
+  left: 70%;
+}
+.animBandeau{
+  margin-right: 100px;
+  transition-duration: 0.5s;
+
+}
+.animBandeau a{
+  color: black;
+  text-decoration: none;
+  padding: 40px;
+}
+.animBandeau:hover{
+  color: white;
+  opacity: 0.9;
+  background: linear-gradient(black,silver);
+  transform: scale(1.1);
+  border-radius: 25px 25px;
+}
+.animBandeau a:hover{
+  color: white;
+}
+#accueil{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.5em;
+  }
+
+  .logo{
+  width: 100px;
+  height: 100px;
+  margin:10px;
+  }
+footer{
+  margin-top: -30px;
+  background-color: grey;
+  font-size: 1.5em;
+  background-color: lightgrey;
+  }
+.blockFooter1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+.blockFooter3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+.paragrapheFooter{
+  margin: 10px;
+
+  }
+.middle{
+    position: absolute;
+    top: 108%;
+    transform: translateY(-50%);
+    width: auto;
+    text-align: center;
+    left: 60%;
+  }
+.btn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: lightgrey;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px black;
+    color: black;
+    overflow: hidden;
+    position: relative;
+  }
+  .btn i{
+    line-height: 90px;
+    font-size: 30px;
+    transition: 0.3s linear;
+  }
+  .btn:hover i{
+    transform: scale(1.5);
+    color: #f1f1f1;
+  }
+  .btn:before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: #424242;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+  }
+  .btn:hover::before{
+    animation: aaa 0.7 1;
+    top: -10%;
+    left: -10%;
+  }
+  #mail{
+    color: black;
+
+  }

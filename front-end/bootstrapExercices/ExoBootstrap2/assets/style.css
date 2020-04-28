@@ -1,0 +1,11 @@
+.row{
+  background-color: #007CFF;
+  color: white;
+  text-align: center;
+}
+.row-2 div{
+  background-color: #EB2D43;
+}
+div{
+  border: 1px solid white;
+}
